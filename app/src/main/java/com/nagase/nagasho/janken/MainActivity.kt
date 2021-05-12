@@ -17,17 +17,17 @@ class MainActivity : AppCompatActivity() {
 
             when(number) {
                 0 -> {
-                    cpu.text = "相手の手はグーです"
+                    cpu.setImageResource(R.drawable.goo)
                     result.text = "引き分けです"
                     result.setTextColor(Color.parseColor("#8a000000"))
                 }
                 1 -> {
-                    cpu.text = "相手の手はチョキです"
+                    cpu.setImageResource(R.drawable.choki)
                     result.text = "あなたの勝ちです"
                     result.setTextColor(Color.parseColor("#f44336"))
                 }
                 2 -> {
-                    cpu.text = "相手の手はパーです"
+                    cpu.setImageResource(R.drawable.pa)
                     result.text = "あなたの負けです"
                     result.setTextColor(Color.parseColor("#2196f3"))
                 }
@@ -39,17 +39,17 @@ class MainActivity : AppCompatActivity() {
 
             when(number) {
                 0 -> {
-                    cpu.text = "相手の手はグーです"
+                    cpu.setImageResource(R.drawable.goo)
                     result.text = "あなたの勝ちです"
                     result.setTextColor(Color.parseColor("#f44336"))
                 }
                 1 -> {
-                    cpu.text = "相手の手はチョキです"
+                    cpu.setImageResource(R.drawable.choki)
                     result.text = "あなたの負けです"
                     result.setTextColor(Color.parseColor("#2196f3"))
                 }
                 2 -> {
-                    cpu.text = "相手の手はパーです"
+                    cpu.setImageResource(R.drawable.pa)
                     result.text = "引き分けです"
                     result.setTextColor(Color.parseColor("#8a000000"))
                 }
@@ -61,18 +61,18 @@ class MainActivity : AppCompatActivity() {
 
             when(number) {
                 0 -> {
-                    cpu.text = "相手の手はグーです"
+                    cpu.setImageResource(R.drawable.goo)
                     result.text = "あなたの負けです"
                     result.setTextColor(Color.parseColor("#2196f3"))
 
                 }
                 1 -> {
-                    cpu.text = "相手の手はチョキです"
+                    cpu.setImageResource(R.drawable.choki)
                     result.text = "引き分けです"
                     result.setTextColor(Color.parseColor("#8a000000"))
                 }
                 2 -> {
-                    cpu.text = "相手の手はパーです"
+                    cpu.setImageResource(R.drawable.pa)
                     result.text = "あなたの勝ちです"
                     result.setTextColor(Color.parseColor("#f44336"))
                 }
